@@ -10,10 +10,10 @@ import os
 load_dotenv()
 
 # Connection settings
-HOST = os.getenv('host')
-USER = os.getenv('user')
-PASSWORD = os.getenv('password')
-DATABASE = os.getenv('database')
+HOST = 'localhost'
+USER = 'root'
+PASSWORD = 'Cousin55'
+DATABASE = 'opt_db'
 
 
 # Connect to the MySQL database
